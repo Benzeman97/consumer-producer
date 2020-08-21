@@ -1,0 +1,7 @@
+server:
+  port: 9091
+
+service:
+   provider:
+          port: 9090
+          url: "http://producer:${service.provider.port}/emp/"
